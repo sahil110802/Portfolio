@@ -1,0 +1,42 @@
+#contact{
+    margin-top: 15rem;
+        height: 80vh;
+        overflow: hidden;
+        align-items: center;
+}
+h2{
+    font-weight: 1000;
+    font-size: 2rem;
+}
+.Card {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 18px;
+    background: linear-gradient(145deg, rgb(45, 21, 77), rgb(97, 47, 108));
+    box-shadow: 6px 6px 17px #b3b3b3, -6px -6px 17px #fff;
+    color: black;
+}
+.socials{
+    visibility: hidden;
+    margin: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 4rem;
+}
+@media screen and (max-width: 980px){
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        width: var(--container-width-sm);
+    }
+    .Card{
+        flex-direction: column;
+    }
+    .socials{
+        visibility: visible;
+    }
+}
