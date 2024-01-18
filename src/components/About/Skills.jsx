@@ -1,6 +1,6 @@
 import html from '../assets/skills/html.png'
 import api from '../assets/skills/api.png'
-
+import css from '../assets/skills/css.png'
 const Skills = [
     {
       id: 1,
@@ -14,8 +14,8 @@ const Skills = [
     },
     {
       id: 3,
-      image:html,
-      title:'HTML',
+      image:css,
+      title:'CSS',
     },
     {
       id: 4,
